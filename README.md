@@ -86,13 +86,13 @@ WHERE {
 ```
 
 ### CONSTRUCT DATASET 
-<https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Moliere-in-Gallica.ttl> </br> Or </br>
-<https://raw.githubusercontent.com/chiara-latronico/Gallica-Onstage/main/Moliere-in-Gallica.ttl?token=AG4FV5SNHMSQE4QBOCB5M2TALSRNI>
 
+The RDF dataset made out of the CONSTRCT query can be found here:
+<https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Moliere-in-Gallica.ttl> 
 
 
 ### Lenticular Lens 
-Link to the Lenticular Lens job:
+Link to the Lenticular Lens job where the Gallica URIs are matched against the Onstage ones based on differet algorithms:
 <https://recon.diginfra.net/?job_id=929b6be5c54024773a9c0b29f3206861>
 
 Aalysis of LENS #0, with label "TITLES (WITH DATES)"
