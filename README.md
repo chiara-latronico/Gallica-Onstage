@@ -3,7 +3,7 @@
 Task for the Onstage Working Group - </br>
 Linking Gallica URIs to Onstage ones 
 
-## BNF SPARQL Endpoint
+### BNF SPARQL Endpoint
 <https://data.bnf.fr/sparql>
 
 ### QUERIES
