@@ -1,13 +1,32 @@
 # Gallica-Onstage
 
+Taks for the Onstage Working Group to link Gallica URIs to Onstage ones. 
 
 (Run `pip install -U -r requirements.txt`)
 
 
-## SPARQL Endpoint
-<https://sparql.goldenagents.org/>
+## BNF SPARQL Endpoint
+<https://data.bnf.fr/sparql>
 
-### Preview
+### QUERIES
+
+Gallica URIs where Moliere has a role (creator or contributor)
+
+```bash
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdarelationships: <http://rdvocab.info/RDARelationshipsWEMI/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+SELECT DISTINCT(?URLGallica) WHERE { 
+  	?w  rdarelationships:electronicReproduction ?URLGallica;
+       ?p ?o.
+  ?o ?r <http://data.bnf.fr/ark:/12148/cb11916418p#about>.
+  
+} 
+
+```
+
+Gallica URIs where Moliere has a role (creator or contributor) with tiles, lables and dates 
 
 ```bash
 PREFIX dcterm: <http://purl.org/dc/terms/>
