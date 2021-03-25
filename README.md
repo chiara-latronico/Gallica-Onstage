@@ -24,7 +24,7 @@ SELECT DISTINCT(?URLGallica) WHERE {
 
 ```
 
-Gallica URIs where Moliere has a role (creator or contributor) with tiles, lables and dates 
+Gallica URIs where Moliere has a role with tiles, lables and dates 
 
 ```bash
 PREFIX dcterm: <http://purl.org/dc/terms/>
