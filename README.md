@@ -1,14 +1,14 @@
 # Gallica-Onstage
 
 Task for the Onstage Working Group - </br>
-Linking Gallica URIs to Onstage ones 
+Linking Gallica's URIs where Molière is creator or contributor to the Onstage's URIs  
 
 ### BNF SPARQL Endpoint
 <https://data.bnf.fr/sparql>
 
 ### QUERIES
 
-Gallica URIs where Moliere has a role
+Gallica URIs where Molière has a role
 
 ```bash
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -24,7 +24,7 @@ SELECT DISTINCT(?URLGallica) WHERE {
 
 ```
 
-Gallica URIs where Moliere has a role with tiles, lables and dates 
+Gallica URIs where Molière has a role with tiles, lables and dates 
 
 ```bash
 PREFIX dcterm: <http://purl.org/dc/terms/>
@@ -51,7 +51,7 @@ WHERE {
 } #limit 100
 ```
 
-CONSTRUCT RDF dataset where the Gallica URIs have type CreativeWork and contains titles, labels and dates
+CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contains titles, labels and dates
 
 
 ```bash
@@ -84,6 +84,12 @@ WHERE {
   
 } #limit 100
 ```
+
+### CONSTRUCT DATASET 
+<https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Moliere-in-Gallica.ttl>
+<https://raw.githubusercontent.com/chiara-latronico/Gallica-Onstage/main/Moliere-in-Gallica.ttl?token=AG4FV5SNHMSQE4QBOCB5M2TALSRNI>
+
+
 
 ### Lenticular Lens 
 <https://recon.diginfra.net/?job_id=929b6be5c54024773a9c0b29f3206861>
