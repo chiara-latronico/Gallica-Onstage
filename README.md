@@ -85,7 +85,7 @@ WHERE {
 } #limit 100
 ```
 
-### Lenticular Lens job 
+### Lenticular Lens 
 <https://recon.diginfra.net/?job_id=929b6be5c54024773a9c0b29f3206861>
 
-LENS #0 labeel "TITLES (WITH DATES)"
+LENS #0, label "TITLES (WITH DATES)"
