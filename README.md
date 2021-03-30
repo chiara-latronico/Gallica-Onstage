@@ -6,7 +6,7 @@ Linking the Gallica's URIs where Molière is creator or contributor to the Onsta
 ### BNF SPARQL Endpoint
 <https://data.bnf.fr/sparql>
 
-### QUERIES
+### Queries
 
 Gallica URIs where Molière has a role
 
