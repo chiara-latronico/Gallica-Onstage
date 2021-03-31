@@ -1,4 +1,4 @@
-# Gallica-Onstage
+# Linking Gallica to Onstage
 
 Task for the Onstage Working Group - </br>
 Linking the Gallica's URIs where Molière is creator or contributor to the Onstage's URIs  
