@@ -96,9 +96,9 @@ Link to the Lenticular Lens job where the Gallica URIs are matched against the O
 <https://recon.diginfra.net/?job_id=929b6be5c54024773a9c0b29f3206861>
 
 #### Follow up
-[X] Validation of linkset LENS #1, labelled "UNION 2:: TITLES + EXACT DATES" ; {ongoing} </br>
-[ ] Exoprt of linkset LENS #1 ; </br>
-[ ] Publish linkset LENS #1 in Timbuctoo ;  </br>
-[ ] Data integration form linkset LENS #1 to the Onstage database . </br>
+1. [X] Validation of linkset LENS #1, labelled "UNION 2:: TITLES + EXACT DATES" ; {ongoing} </br>
+2. [ ] Exoprt of linkset LENS #1 ; </br>
+3. [ ] Publish linkset LENS #1 in Timbuctoo ;  </br>
+4. [ ] Data integration form linkset LENS #1 to the Onstage database . </br>
 
 
