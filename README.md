@@ -93,7 +93,7 @@ The RDF dataset made out of the CONSTRCT query can be found here: </br>
 Link to the Lenticular Lens job where the Gallica URIs are matched against the Onstage URIs using different algorithms: </br>
 <https://recon.diginfra.net/?job_id=929b6be5c54024773a9c0b29f3206861>
 
-#### Follow up
+### Follow up
 1. [X] Validation of linkset LENS #1, labelled "UNION 2:: TITLES + EXACT DATES" ; {ongoing} </br>
 2. [ ] Exoprt of linkset LENS #1 ; </br>
 3. [ ] Publish linkset LENS #1 in Timbuctoo ;  </br>
