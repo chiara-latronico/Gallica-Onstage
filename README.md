@@ -50,7 +50,7 @@ WHERE {
 } 
 ```
 
-CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contains titles, labels and dates
+CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contain titles, labels and dates
 
 
 ```bash
