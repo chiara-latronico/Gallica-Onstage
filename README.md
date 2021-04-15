@@ -8,7 +8,7 @@ Linking the Gallica's URIs where the author Molière has the role of creator or 
 
 ### Queries
 
-Gallica URIs where Molière has a role. (Molière URI: <http://data.bnf.fr/ark:/12148/cb11916418p#about> ) 
+1. Gallica URIs where Molière has a role. (Molière URI: <http://data.bnf.fr/ark:/12148/cb11916418p#about> ) 
 
 ```bash
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -24,7 +24,7 @@ WHERE {
 
 ```
 
-Gallica URIs where Molière has a role with tiles, lables and dates 
+2. Gallica URIs where Molière has a role with tiles, lables and dates 
 
 ```bash
 PREFIX dcterm: <http://purl.org/dc/terms/>
@@ -50,7 +50,7 @@ WHERE {
 } 
 ```
 
-CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contain titles, labels and dates
+3. CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contain titles, labels and dates
 
 
 ```bash
