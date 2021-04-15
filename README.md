@@ -92,7 +92,7 @@ The RDF dataset made out of the CONSTRCT query can be found here: </br>
 
 
 ### Lenticular Lens 
-Link to the Lenticular Lens job where the Gallica URIs are matched against the Onstage ones based on different algorithms: </br>
+Link to the Lenticular Lens job where the Gallica URIs are matched against the Onstage ones using different algorithms: </br>
 <https://recon.diginfra.net/?job_id=929b6be5c54024773a9c0b29f3206861>
 
 #### Follow up
