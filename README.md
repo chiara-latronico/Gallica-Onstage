@@ -16,9 +16,9 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdarelationships: <http://rdvocab.info/RDARelationshipsWEMI/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT DISTINCT(?URLGallica) WHERE { 
-  	?w  rdarelationships:electronicReproduction ?URLGallica;
-        ?p ?o.
-        ?o ?r <http://data.bnf.fr/ark:/12148/cb11916418p#about>.
+  	?rdf_URI  rdarelationships:electronicReproduction ?URLGallica;
+        ?p ?bnf_URI.
+        ?bnf_URI ?role <http://data.bnf.fr/ark:/12148/cb11916418p#about>.
   
 } 
 
