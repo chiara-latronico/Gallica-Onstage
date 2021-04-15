@@ -83,9 +83,9 @@ WHERE {
 } 
 ```
 
-### CONSTRUCT Query Dataset 
+### CONSTRUCT Dataset  
 
-The RDF dataset made out of the CONSTRCT query can be found here: </br>
+The Gallica subset in RDF (made from the CONSTRUCT query) can be found here: </br>
 <https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Moliere-in-Gallica.ttl> 
 
 
