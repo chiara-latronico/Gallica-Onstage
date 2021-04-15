@@ -1,6 +1,6 @@
 # Golden Agents- Linking Gallica to Onstage
 
-Golen Agents task for the Onstage Working Group - </br>
+Golden Agents task for the Onstage Working Group - </br>
 Linking the Gallica's URIs where Molière is creator or contributor to the Onstage's URIs  
 
 ### BNF SPARQL Endpoint
