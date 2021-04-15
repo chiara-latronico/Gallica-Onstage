@@ -49,7 +49,7 @@ WHERE {
   OPTIONAL {?bnf_URI dcterms:date ?date.} 
      
   
-} #limit 100
+} 
 ```
 
 CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contains titles, labels and dates
@@ -83,7 +83,7 @@ WHERE {
   OPTIONAL {?rdf_URI rdfs:label ?label .}
   OPTIONAL {?rdf_URI dcterms:date ?date.}  
   
-} #limit 100
+} 
 ```
 
 ### CONSTRUCT Query Dataset 
