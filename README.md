@@ -20,7 +20,6 @@ WHERE {
   	?rdf_URI  rdarelationships:electronicReproduction ?URLGallica;
         ?p ?bnf_URI.
         ?bnf_URI ?role <http://data.bnf.fr/ark:/12148/cb11916418p#about>.
-  
 } 
 
 ```
@@ -47,9 +46,7 @@ WHERE {
   
   OPTIONAL {?rdf_URI dcterms:title ?title.} 
   OPTIONAL {?rdf_URI rdfs:label ?label .}
-  OPTIONAL {?rdf_URI dcterms:date ?date.} 
-     
-  
+  OPTIONAL {?rdf_URI dcterms:date ?date.}     
 } 
 ```
 
@@ -82,8 +79,7 @@ WHERE {
   
   OPTIONAL {?rdf_URI dcterms:title ?title.} 
   OPTIONAL {?rdf_URI rdfs:label ?label .}
-  OPTIONAL {?rdf_URI dcterms:date ?date.}  
-  
+  OPTIONAL {?rdf_URI dcterms:date ?date.}   
 } 
 ```
 
