@@ -95,7 +95,7 @@ Link to the Lenticular Lens job where the Gallica URIs are matched against the O
 
 ### Follow up
 1. [X] Validation of linkset LENS #1, labelled "UNION 2:: TITLES + EXACT DATES" ; {ongoing} </br>
-2. [ ] Exoprt of linkset LENS #1 ; </br>
+2. [ ] Export of linkset LENS #1 ; </br>
 3. [ ] Publish linkset LENS #1 in Timbuctoo ;  </br>
 4. [ ] Data integration form linkset LENS #1 to the Onstage database . </br>
 
