@@ -24,7 +24,7 @@ WHERE {
 
 ```
 
-2. Gallica URIs where Molière has a role with titles, lables and dates 
+2. Gallica URIs where Molière has a role with titles, labels and dates 
 
 ```bash
 PREFIX dcterm: <http://purl.org/dc/terms/>
