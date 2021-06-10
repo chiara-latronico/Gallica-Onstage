@@ -107,7 +107,8 @@ Link to the Lenticular Lens job where the Gallica URIs are matched against the O
 ### Follow up
 1. [X] Validation of linkset #8 </br>
 2. [ ] Export of linkset linkset #8 ; </br>
-3. [ ] Publish linkset linkset #8 in Timbuctoo .  </br>
+3. [ ] Publish linkset #8 in Timbuctoo ;  </br>
+4. [ ] Syc linkset #8 in Virtuoso .  </br>
 
 
 
