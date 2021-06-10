@@ -27,7 +27,6 @@ WHERE {
 2. Gallica URIs where Molière has a role with titles, labels, dates and publishers
 
 ```bash
-
 PREFIX dcterm: <http://purl.org/dc/terms/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
@@ -59,7 +58,7 @@ WHERE {
 
 
 ```bash
- PREFIX dcterm: <http://purl.org/dc/terms/>
+PREFIX dcterm: <http://purl.org/dc/terms/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
