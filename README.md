@@ -54,11 +54,11 @@ WHERE {
 } 
 ```
 
-3. CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contain titles, labels and dates
+3. CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contain titles, labels, dates and publishers
 
 
 ```bash
-PREFIX dcterm: <http://purl.org/dc/terms/>
+ PREFIX dcterm: <http://purl.org/dc/terms/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -68,23 +68,30 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX schema: <http://schema.org/>
 CONSTRUCT {
 ?URLGallica rdf:type schema:CreativeWork ;
-            dcterms:title ?title ; 
+			dcterms:title ?title ; 
             rdfs:label ?label ;
-            dcterms:date ?date.} 
+			dcterms:date ?date ;
+            dcterms:publisher ?publisher ;
+    		<http://rdvocab.info/Elements/publishersName> ?publishersName.} 
 
 WHERE { 
   	?rdf_URI  rdarelationships:electronicReproduction ?URLGallica;
-        ?p ?bnf_URI.
-        ?bnf_URI ?role <http://data.bnf.fr/ark:/12148/cb11916418p#about>.
+       ?p ?bnf_URI.
+   ?bnf_URI ?role <http://data.bnf.fr/ark:/12148/cb11916418p#about>.
   
   OPTIONAL {?bnf_URI dcterms:title ?title.} 
   OPTIONAL {?bnf_URI rdfs:label ?label .}
   OPTIONAL {?bnf_URI dcterms:date ?date.} 
+  OPTIONAL {?bnf_URI dcterms:publisher ?publisher.} 
+  OPTIONAL {?bnf_URI <http://rdvocab.info/Elements/publishersName> ?publishersName.}
   
   OPTIONAL {?rdf_URI dcterms:title ?title.} 
   OPTIONAL {?rdf_URI rdfs:label ?label .}
-  OPTIONAL {?rdf_URI dcterms:date ?date.}   
-} 
+  OPTIONAL {?rdf_URI dcterms:date ?date.} 
+  OPTIONAL {?rdf_URI dcterms:publisher ?publisher.} 
+  OPTIONAL {?rdf_URI <http://rdvocab.info/Elements/publishersName> ?publishersName.} 
+
+}  
 ```
 
 ### CONSTRUCT Dataset  
