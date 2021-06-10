@@ -97,7 +97,7 @@ WHERE {
 ### CONSTRUCT Dataset  
 
 The Gallica subset in RDF (made from the CONSTRUCT query) can be found here: </br>
-
+<https://github.com/chiara-latronico/Gallica-Onstage/blob/main/CONSTRUCT-Moliere-in-Gallica-titles-labels-dates-publishers.ttl>
 
 
 ### Lenticular Lens 
@@ -105,9 +105,9 @@ Link to the Lenticular Lens job where the Gallica URIs are matched against the O
 <https://recon.diginfra.net/?job_id=929b6be5c54024773a9c0b29f3206861>
 
 ### Follow up
-1. [X] Validation of linkset LENS #1, labelled "UNION 2:: TITLES + EXACT DATES" ; </br>
-2. [ ] Export of linkset LENS #1 ; </br>
-3. [ ] Publish linkset LENS #1 in Timbuctoo .  </br>
+1. [X] Validation of linkset #8 </br>
+2. [ ] Export of linkset linkset #8 ; </br>
+3. [ ] Publish linkset linkset #8 in Timbuctoo .  </br>
 
 
 
