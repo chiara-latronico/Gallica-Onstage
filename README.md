@@ -24,7 +24,7 @@ WHERE {
 
 ```
 
-2. Gallica URIs where Molière has a role with titles, labels and dates 
+2. Gallica URIs where Molière has a role with titles, labels, dates and publishers
 
 ```bash
 PREFIX dcterm: <http://purl.org/dc/terms/>
@@ -34,7 +34,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdarelationships: <http://rdvocab.info/RDARelationshipsWEMI/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-SELECT DISTINCT ?role ?URLGallica ?title ?label ?date 
+SELECT DISTINCT ?role ?URLGallica ?title ?label ?date ?publisher ?publishersName
 WHERE { 
   	?rdf_URI  rdarelationships:electronicReproduction ?URLGallica;
         ?p ?bnf_URI.
@@ -43,10 +43,14 @@ WHERE {
   OPTIONAL {?bnf_URI dcterms:title ?title.} 
   OPTIONAL {?bnf_URI rdfs:label ?label .}
   OPTIONAL {?bnf_URI dcterms:date ?date.} 
+  OPTIONAL {?bnf_URI dcterms:publisher ?publisher.} 
+  OPTIONAL {?bnf_URI <http://rdvocab.info/Elements/publishersName> ?publishersName.}
   
   OPTIONAL {?rdf_URI dcterms:title ?title.} 
   OPTIONAL {?rdf_URI rdfs:label ?label .}
-  OPTIONAL {?rdf_URI dcterms:date ?date.}     
+  OPTIONAL {?rdf_URI dcterms:date ?date.}   
+  OPTIONAL {?rdf_URI dcterms:publisher ?publisher.} 
+  OPTIONAL {?rdf_URI <http://rdvocab.info/Elements/publishersName> ?publishersName.} 
 } 
 ```
 
