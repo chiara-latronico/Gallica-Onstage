@@ -68,16 +68,16 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX schema: <http://schema.org/>
 CONSTRUCT {
 ?URLGallica rdf:type schema:CreativeWork ;
-			dcterms:title ?title ; 
+	    dcterms:title ?title ; 
             rdfs:label ?label ;
-			dcterms:date ?date ;
+            dcterms:date ?date ;
             dcterms:publisher ?publisher ;
-    		<http://rdvocab.info/Elements/publishersName> ?publishersName.} 
+    	    <http://rdvocab.info/Elements/publishersName> ?publishersName.} 
 
 WHERE { 
   	?rdf_URI  rdarelationships:electronicReproduction ?URLGallica;
-       ?p ?bnf_URI.
-   ?bnf_URI ?role <http://data.bnf.fr/ark:/12148/cb11916418p#about>.
+        ?p ?bnf_URI.
+        ?bnf_URI ?role <http://data.bnf.fr/ark:/12148/cb11916418p#about>.
   
   OPTIONAL {?bnf_URI dcterms:title ?title.} 
   OPTIONAL {?bnf_URI rdfs:label ?label .}
