@@ -10,7 +10,7 @@ Linking the Gallica's URIs where the author Molière has the role of creator or 
 
 1. Gallica URIs where Molière has a role. (Molière URI: <<http://data.bnf.fr/ark:/12148/cb11916418p#about>> ) 
 
-```bash
+```SPARQL
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdarelationships: <http://rdvocab.info/RDARelationshipsWEMI/>
