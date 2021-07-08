@@ -105,15 +105,17 @@ Link to the Lenticular Lens job where the Gallica URIs are matched against the O
 <https://recon.diginfra.net/?job_id=929b6be5c54024773a9c0b29f3206861>
 
 ### LinkSets
-1. Linksets in CSV exported from Lenticular Lens can be found here: </br>
-<>
+1. Linksets in CSV exported directly from Lenticular Lens can be found here: </br>
+<https://github.com/chiara-latronico/Gallica-Onstage/blob/main/skos_close_match_LL.csv> </br>
+<https://github.com/chiara-latronico/Gallica-Onstage/blob/main/skos_related_match_LL.csv>
+
 2. Linksets in Excell, enriched and normalized with names of publishers can be found here: </br>
 <https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Skos_close_match.xlsx> </br>
 <https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Skos_related_match.xlsx>
 
 ### Follow up
 1. [X] Validation of linkset #8 </br>
-2. [ ] Export of linkset linkset #8 ; </br>
+2. [ ] Export of linkset in RDF linkset #8 ; </br>
 3. [ ] Publish linkset #8 in Timbuctoo ;  </br>
 4. [ ] Syc linkset #8 in Virtuoso .  </br>
 
