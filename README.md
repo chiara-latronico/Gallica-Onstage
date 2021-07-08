@@ -107,8 +107,8 @@ Link to the Lenticular Lens job where the Gallica URIs are matched against the O
 ### LinkSets
 1. Linksets in CSV exported from Lenticular Lens can be found here: </br>
 <>
-2. Linksets in Excell, enriched and normalized with names of publishers ca be found here: </br>
-<https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Skos_close_match.xlsx></br>
+2. Linksets in Excell, enriched and normalized with names of publishers can be found here: </br>
+<https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Skos_close_match.xlsx> </br>
 <https://github.com/chiara-latronico/Gallica-Onstage/blob/main/Skos_related_match.xlsx>
 
 ### Follow up
