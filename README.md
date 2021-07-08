@@ -26,7 +26,7 @@ WHERE {
 
 2. Gallica URIs where Molière has a role with titles, labels, dates and publishers
 
-```bash
+```SPARQL
 PREFIX dcterm: <http://purl.org/dc/terms/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
@@ -57,7 +57,7 @@ WHERE {
 3. CONSTRUCT RDF dataset where the Gallica URIs (where Molière has a role) have type CreativeWork and contain titles, labels, dates and publishers
 
 
-```bash
+```SPARQL
 PREFIX dcterm: <http://purl.org/dc/terms/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
